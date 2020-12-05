@@ -2,7 +2,8 @@ from day1 import day1_part1, pay1_part2
 from day2 import day2_part1, day2_part2
 from day3 import day3_part1, day3_part2
 from day4 import day4_part1, day4_part2
+from day5 import day5_part1, day5_part2
 
 if __name__ == '__main__':
-    day4_part1()
-    day4_part2()
+    day5_part1()
+    day5_part2()
