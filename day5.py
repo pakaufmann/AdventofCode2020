@@ -10,10 +10,14 @@ def get_seat_id(input: str):
 
 
 def get_seat(input: str):
-    row = functools.reduce(lambda a, b: get_range(a[0], a[1], b == "F"), input[:7], (0, 127))
-    seat = functools.reduce(lambda a, b: get_range(a[0], a[1], b == "L"), input[-3:], (0, 7))
+    # row = functools.reduce(lambda a, b: get_range(a[0], a[1], b == "F"), input[:7], (0, 127))
+    # seat = functools.reduce(lambda a, b: get_range(a[0], a[1], b == "L"), input[-3:], (0, 7))
+    # return row[0], seat[0]
 
-    return row[0], seat[0]
+    row = int(input[:7].replace("F", "0").replace("B", "1"), 2)
+    seat = int(input[-3:].replace("L", "0").replace("R", "1"), 2)
+
+    return row, seat
 
 
 def get_range(lower: int, upper: int, take_lower: bool):

@@ -6,5 +6,5 @@ from day5 import day5_part1, day5_part2
 from day6 import day6_part1, day6_part2
 
 if __name__ == '__main__':
-    day6_part1()
-    day6_part2()
+    day5_part1()
+    day5_part2()
