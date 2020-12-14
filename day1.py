@@ -9,7 +9,7 @@ def day1_part1():
     print(first * second)
 
 
-def pay1_part2():
+def day1_part2():
     first = next(x for x in numbers if find_total(numbers, sum_to_find - x) is not None)
     second, third = find_total(numbers, sum_to_find - first)
     print(first * second * third)
