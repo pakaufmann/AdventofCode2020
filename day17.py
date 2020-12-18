@@ -1,5 +1,4 @@
 import itertools
-import time
 from functools import cache
 
 Cube3D = tuple[int, int, int]

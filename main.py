@@ -7,6 +7,7 @@ from day14 import day14_part1, day14_part2
 from day15 import day15_part1, day15_part2
 from day16 import day16_part1, day16_part2
 from day17 import day17_part1, day17_part2
+from day18 import day18_part1, day18_part2
 from day2 import day2_part1, day2_part2
 from day3 import day3_part1, day3_part2
 from day4 import day4_part1, day4_part2
@@ -17,5 +18,5 @@ from day8 import day8_part1, day8_part2
 from day9 import day9_part1, day9_part2
 
 if __name__ == '__main__':
-    day17_part1()
-    day17_part2()
+    day18_part1()
+    day18_part2()
