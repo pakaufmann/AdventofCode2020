@@ -1,5 +1,5 @@
-from day20 import day20_part1, day20_part2
+from day21 import day22_part1, day22_part2
 
 if __name__ == '__main__':
-    day20_part1()
-    day20_part2()
+    day22_part1()
+    day22_part2()
